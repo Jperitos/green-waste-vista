@@ -2,6 +2,8 @@
 import Hero from "@/components/Hero";
 import VideoSection from "@/components/VideoSection";
 import TipsSection from "@/components/TipsSection";
+import FeedbackForm from "@/components/FeedbackForm";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -11,6 +13,8 @@ const Index = () => {
       <Hero />
       <VideoSection />
       <TipsSection />
+      <FeedbackForm />
+      <ContactSection />
       <WhatsAppButton />
       <Footer />
     </div>
